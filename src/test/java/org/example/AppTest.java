@@ -30,13 +30,16 @@ public class AppTest extends TestConstants {
         search_text_field.sendKeys("cat", Keys.ENTER);
 
         List<WebElement> items_title = driver.findElements(By.className("grid-product__title"));
-        int cats_items_counter = 0;
+        bool isAllItemsHaveCat = false;
         for (WebElement item_title : items_title) {
             if ((item_title.getText().toLowerCase()).contains("cat")) {
-                cats_items_counter++;
+                isAllItemsHaveCat=true;
+            }else{
+            isAllItemsHaveCat=false;
+                break;
             }
         }
-        Assert.assertNotEquals(items_title.size(), cats_items_counter);
+        Assert.assertTrue(isAllItemsHaveCat, true);
     }
 
     @Test(priority = 2)
