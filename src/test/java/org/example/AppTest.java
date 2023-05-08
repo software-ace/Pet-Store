@@ -21,26 +21,26 @@ public class AppTest extends TestConstants {
         driver.get(BASE_URL);
     }
 
-    @Test(priority = 1)
-    public void verify_search_for_cat() {
-        WebElement search_icon = driver.findElement(By.className("icon-search"));
-        search_icon.click();
+@Test(priority = 1)
+public void verify_search_for_cat() {
+    WebElement search_icon = driver.findElement(By.className("icon-search"));
+    search_icon.click();
 
-        WebElement search_text_field = driver.findElement(By.name("q"));
-        search_text_field.sendKeys("cat", Keys.ENTER);
+    WebElement search_text_field = driver.findElement(By.name("q"));
+    search_text_field.sendKeys("cat", Keys.ENTER);
 
-        List<WebElement> items_title = driver.findElements(By.className("grid-product__title"));
-        bool isAllItemsHaveCat = false;
-        for (WebElement item_title : items_title) {
-            if ((item_title.getText().toLowerCase()).contains("cat")) {
-                isAllItemsHaveCat=true;
-            }else{
-            isAllItemsHaveCat=false;
-                break;
-            }
+    List<WebElement> items_title = driver.findElements(By.className("grid-product__title"));
+    boolean isAllItemsHaveCat = true; // Assume all items have "cat" by default
+
+    for (WebElement item_title : items_title) {
+        if (!(item_title.getText().toLowerCase().contains("cat"))) {
+            isAllItemsHaveCat = false;
+            break;
         }
-        Assert.assertTrue(isAllItemsHaveCat, true);
     }
+
+    Assert.assertTrue(isAllItemsHaveCat);
+}
 
     @Test(priority = 2)
     public void verify_selecting_random_dog_item() {
