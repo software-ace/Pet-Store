@@ -42,8 +42,8 @@ To run the tests, ensure that you have the following software installed:
 
 ## Running the Tests
 
-1. Clone this repository: `git clone https://github.com/yourusername/automated-tests-pet-store.git`
-2. Navigate to the project directory: `cd automated-tests-pet-store`
+1. Clone this repository: `git clone https://github.com/software-ace/Pet-Store.git`
+2. Navigate to the project directory: `cd Pet-Store`
 3. Open Intellij Idea `idea .`
 4. Run the tests: `Click on Run Icon`
 
