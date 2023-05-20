@@ -1,6 +1,6 @@
 # Automated Tests for Pet Store
 
-This repository contains automated tests for the [Pet Store](https://ecom-pet-store.myshopify.com/) website. The tests are implemented using Java, TestNG, and Selenium WebDriver.
+This repository contains automated tests for the [Pet Store](https://ecom-pet-store.myshopify.com/) website. The tests are implemented using Java Seleinum, TestNG and Page Object Model.
 
 ## Tools
 
@@ -15,21 +15,21 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 
 This test verifies the search functionality of the Pet Store website. It performs a search for the keyword "cat" and checks if the displayed items contain the word "cat".
 
-### Test 2: Verify Selecting Random Dog Item
-
-This test verifies the selection of a random dog item from the Pet Store website. It navigates to the dogs page, selects a random product, chooses a random color and size, and adds the item to the cart.
-
-### Test 3: Verify Selecting Random Animal Category and Items Number
+### Test 2: Verify Selecting Random Animal Category and Items Number
 
 This test verifies the selection of a random animal category from the Pet Store website. It randomly selects a pet type from the available options and checks if the number of displayed items is as expected.
 
-### Test 4: Verify Filling Contact Form and Submit
+### Test 3: Verify Selecting Random Dog Item
 
-This test verifies the contact form submission on the Pet Store website. It fills the contact form with dummy information and submits it. It then checks if the success message is displayed.
+This test verifies the selection of a random dog item from the Pet Store website. It navigates to the dogs page, selects a random product, chooses a random color and size, and adds the item to the cart.
 
-### Test 5: Verify Checkout Process and Screenshot Payment Page
+### Test 4: Verify Checkout Process and Screenshot Payment Page
 
 This test verifies the checkout process on the Pet Store website. It fills the checkout form with dummy information, proceeds to the payment page, takes a screenshot of the payment page, and checks if the payment header is displayed.
+
+### Test 5: Verify Filling Contact Form and Submit
+
+This test verifies the contact form submission on the Pet Store website. It fills the contact form with dummy information and submits it. It then checks if the success message is displayed.
 
 ## Prerequisites
 
@@ -45,7 +45,8 @@ To run the tests, ensure that you have the following software installed:
 1. Clone this repository: `git clone https://github.com/software-ace/Pet-Store.git`
 2. Navigate to the project directory: `cd Pet-Store`
 3. Open Intellij Idea `idea .`
-4. Run the tests: `Click on Run Icon`
+4. Open `PetStoreTests` file
+5. Run the tests: `Click on Run Tests Icon`
 
 ## License
 
