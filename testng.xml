@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/projects/Pet-Store">
+        <classes>
+            <class name="org.example.PetStoreTests">
+                <methods>
+                    <include name="verify_search_for_cat"/>
+                    <include name="verify_selecting_random_animal_category"/>
+                    <include name="verify_selecting_random_dog_item"/>
+                    <include name="verify_checkout_process_and_screenshot_payment_page"/>
+                    <include name="verify_filling_contact_form_and_submit"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
