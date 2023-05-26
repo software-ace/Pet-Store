@@ -45,8 +45,8 @@ To run the tests, ensure that you have the following software installed:
 1. Clone this repository: `git clone https://github.com/software-ace/Pet-Store.git`
 2. Navigate to the project directory: `cd Pet-Store`
 3. Open Intellij Idea `idea .`
-4. Open `PetStoreTests` file
-5. Run the tests: `Click on Run Tests Icon`
+4. Open `testing.xml` file
+5. Run the tests: `Right Click >> Run testing.xml`
 
 ## License
 
