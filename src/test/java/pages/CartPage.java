@@ -25,11 +25,10 @@ public class CartPage {
     private WebElement cityField;
     @FindBy(name = "postalCode")
     private WebElement postalField;
-    @FindBy(xpath = "/html/body/div[1]/div/div/div/div[1]/div/div[2]/div/div/div/div[2]/div/div/div/main/form/div[1]/div/div[2]/div[2]/div[1]/button")
+    @FindBy(xpath = "//button[@class='QT4by rqC98 hodFu VDIfJ j6D1f janiy']")
     private WebElement continueToShippingButton;
-    @FindBy(xpath = "/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/div[1]/div[1]/main[1]/form[1]/div[1]/div[1]/div[1]/div[2]/div[1]/button[1]")
+    @FindBy(xpath = "//button[@class='QT4by rqC98 hodFu VDIfJ j6D1f janiy']")
     private WebElement continueToPaymentButton;
-
     public CartPage(WebDriver d, WebDriverWait w) {
         driver = d;
         webDriverWait = w;

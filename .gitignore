@@ -39,3 +39,6 @@ build/
 
 ### Pictures ###
 *.png
+
+### Test Reports ###
+test-output
