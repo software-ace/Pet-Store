@@ -55,7 +55,7 @@ public class CartPage {
     }
 
     public boolean takeScreenshot() throws IOException {
-        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("/html/body/div[1]/div[1]/div/div/div[1]/div/div[2]/div/div/div/div[2]/div/div/div/main/div/form/div[1]/div/div[1]/section/div/div[1]/p")));
+        webDriverWait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//p[text()='All transactions are secure and encrypted.']")));
         TakesScreenshot screenshotDriver = (TakesScreenshot) driver;
         String dateTimeString = LocalDateTime.now().format(DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss"));
         File screenshotFile = new File("D:\\projects\\Pet-Store\\screenshot_" + dateTimeString + ".png");
