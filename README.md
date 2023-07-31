@@ -2,9 +2,11 @@
 Automated Tests for Pet Store
 </h1>
 
-This repository contains automated tests for the [Pet Store](https://ecom-pet-store.myshopify.com/) website. The tests are implemented using **Java** **Selenium**, **TestNG**, **Data Provider** and **Page Object Model**.
+This repository contains automated tests for the [Pet Store](https://ecom-pet-store.myshopify.com/) website. The tests are implemented using **Java** **Selenium**, **TestNG**, **Data Provider**, and **Page Object Model**.
 
-## Tools
+<h2 align="center">
+	Tools
+</h2>
 
 - ![Java](https://img.shields.io/badge/Java-Programming%20Language-orange)
 - ![TestNG](https://img.shields.io/badge/TestNG-Testing%20Framework-green)
@@ -14,7 +16,8 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 <h1 align="center">
 	Showcase
 </h1>
-[![Tests Run](https://img.youtube.com/vi/YCQjcbkkJxQ/0.jpg)](https://www.youtube.com/watch?v=YCQjcbkkJxQ)
+
+[Tests Run](https://github.com/software-ace/Pet-Store/assets/45077440/46470b26-1dbb-4a15-a967-d618d05e60ef)
 
 
 ## Test Descriptions
@@ -23,7 +26,7 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 
 This test verifies the search functionality of the Pet Store website. It performs a search for the keyword "cat" and checks if the displayed items contain the word "cat".
 
-### Test 2: Verify Selecting Random Animal Category and Items Number
+### Test 2: Verify Selecting a Random Animal Category and Items Number
 
 This test verifies the selection of a random animal category from the Pet Store website. It randomly selects a pet type from the available options and checks if the number of displayed items is as expected.
 
@@ -31,7 +34,7 @@ This test verifies the selection of a random animal category from the Pet Store 
 
 This test verifies the selection of a random dog item from the Pet Store website. It navigates to the dogs page, selects a random product, chooses a random color and size, and adds the item to the cart.
 
-### Test 4: Verify Checkout Process and Screenshot Payment Page
+### Test 4: Verify the Checkout Process and Screenshot the Payment Page
 
 This test verifies the checkout process on the Pet Store website. It fills the checkout form with dummy information, proceeds to the payment page, takes a screenshot of the payment page, and checks if the payment header is displayed.
 
@@ -53,7 +56,7 @@ To run the tests, ensure that you have the following software installed:
 1. Clone this repository: `git clone https://github.com/software-ace/Pet-Store.git`
 2. Navigate to the project directory: `cd Pet-Store`
 3. Open Intellij Idea `idea .`
-4. Open `testing.xml` file
+4. Open the `testing.xml` file
 5. Run the tests: `Right Click >> Run testing.xml`
 
 ## License
