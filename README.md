@@ -9,7 +9,7 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 - ![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation%20Tool-blue)
 - ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-Integrated%20Development%20Environment-red)
   
-## [Tests Run](https://raw.githubusercontent.com/software-ace/Pet-Store/raw/master/Pet_Store_Tests.mkv)
+## [Tests Run](https://github.com/software-ace/Pet-Store/raw/master/Pet_Store_Tests.mkv)
 
 ## Test Descriptions
 
