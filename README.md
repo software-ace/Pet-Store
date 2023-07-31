@@ -14,7 +14,8 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 <h1 align="center">
 	Showcase
 </h1>
-[Tests Run](https://www.youtube.com/watch?v=YCQjcbkkJxQ)
+[![Tests Run](https://img.youtube.com/vi/YCQjcbkkJxQ/0.jpg)](https://www.youtube.com/watch?v=YCQjcbkkJxQ)
+
 
 ## Test Descriptions
 
