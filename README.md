@@ -1,4 +1,6 @@
-# Automated Tests for Pet Store
+<h1 align="center">
+Automated Tests for Pet Store
+</h1>
 
 This repository contains automated tests for the [Pet Store](https://ecom-pet-store.myshopify.com/) website. The tests are implemented using **Java** **Selenium**, **TestNG**, **Data Provider** and **Page Object Model**.
 
@@ -8,8 +10,11 @@ This repository contains automated tests for the [Pet Store](https://ecom-pet-st
 - ![TestNG](https://img.shields.io/badge/TestNG-Testing%20Framework-green)
 - ![Selenium](https://img.shields.io/badge/Selenium-Web%20Automation%20Tool-blue)
 - ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ%20IDEA-Integrated%20Development%20Environment-red)
-  
-## [Tests Run](https://github.com/software-ace/Pet-Store/raw/master/Pet_Store_Tests.mkv)
+
+<h1 align="center">
+	Showcase
+</h1>
+[Tests Run](https://www.youtube.com/watch?v=YCQjcbkkJxQ)
 
 ## Test Descriptions
 
